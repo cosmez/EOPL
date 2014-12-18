@@ -220,3 +220,9 @@
                (sort/predicate (cadr result) pred?)))))
 
 
+
+;;BinTree := Int | (Symbol Bintree Bintree)
+;;ex: 1
+;; (foo 1 2)
+;; (bar 1 (foo 2))
+;; (baz (bar 1 (foo 1 2)) (biz 4 5))
